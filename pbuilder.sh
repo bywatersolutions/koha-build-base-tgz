@@ -7,3 +7,4 @@ wget -O- http://debian.koha-community.org/koha/gpg.asc | apt-key add -
 apt update
 apt install -y koha-perldeps
 apt install -y libio-stringy-perl
+apt install -y libxml2-utils
